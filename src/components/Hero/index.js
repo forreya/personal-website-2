@@ -22,7 +22,6 @@ import { BsJournalText } from "react-icons/bs";
 function Hero() {
   const router = useRouter();
   const {theme} = nookies.get('theme')
-  console.log(theme)
 
   return (
     <Container>
