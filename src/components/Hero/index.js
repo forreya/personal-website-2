@@ -36,7 +36,7 @@ function Hero() {
               <Letter>, </Letter>
               <Letter>&nbsp;</Letter>
               <Letter>I</Letter>
-              <Letter>'</Letter>
+              <Letter>&apos;</Letter>
               <Letter className="stretch">M</Letter>
             </Title>
           </Fade>
@@ -57,7 +57,7 @@ function Hero() {
         <HeroFooter>
           <Fade left delay={800}>
             <ViewButton onClick={() => router.push("/projects")}>
-              <BsEye /> What I've worked on...
+              <BsEye /> What I&apos;ve worked on...
             </ViewButton>
           </Fade>
           <Fade right delay={800}>

@@ -5,7 +5,7 @@ import SkillCard from "../../components/SkillCard";
 import { Container, AboutMe, Skills } from "../../styles/pages/About";
 import { motion } from "framer-motion";
 
-function about() {
+function About() {
   const skillsData = {
     cardOne: {
       title: "Libraries",
@@ -147,7 +147,7 @@ function about() {
             transition={{ duration: 0.8, delay: 0.4 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            <strong>When I'm not working on a new project,</strong> I'm probably scoring some serious buckets in a basketball pickup game, adventuring around a new part of town, or in the corner of my room questioning the meaning of human existence.
+            <strong>When I&apos;m not working on a new project,</strong> I&apos;m probably scoring some serious buckets in a basketball pickup game, adventuring around a new part of town, or in the corner of my room questioning the meaning of human existence.
           </motion.p>
         </div>
 
@@ -175,7 +175,7 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1.0 }}
           >
-            Assistant in Website Development <a href={'https://wahine.wcapital.asia/'} target="_blank" style={{ textDecoration: 'none'}}><span>@Wahine Capital</span></a>
+            Assistant in Website Development <a href={'https://wahine.wcapital.asia/'} target="_blank" style={{ textDecoration: 'none'}} rel="noreferrer"><span>@Wahine Capital</span></a>
           </motion.h3>
           <div style={{ margin: "1rem 0" }}></div>
           <motion.p 
@@ -194,7 +194,7 @@ function about() {
             transition={{ duration: 0.8, delay: 1.4 }}
           >
             Wahine Capital provides a <strong>digital vault and personal life manager</strong> which grants immediate access to assets 
-            and liabilities for significant life events like divorce, death, or tax audits. The company's goal is to 
+            and liabilities for significant life events like divorce, death, or tax audits. The company&apos;s goal is to 
             give users a clear understanding of their financial standing by providing a snapshot of their financial lives.
           </motion.p>
           <div style={{ margin: "1.5rem 0" }}></div>
@@ -204,7 +204,7 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1.5 }}
           >
-            &bull; Assisted in the development of the company's prototype web pages<br />
+            &bull; Assisted in the development of the company&apos;s prototype web pages<br />
           </motion.p>
           <div style={{ margin: "0.2rem 0" }}></div>
           <motion.p 
@@ -222,7 +222,7 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1.7 }}
           >
-            &bull; Responsible for mapping out the structure and UX of the company's website
+            &bull; Responsible for mapping out the structure and UX of the company&apos;s website
           </motion.p>
         </div>
 
@@ -250,7 +250,7 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 2.3 }}
           >
-            Software Engineering Course <a href={'https://makers.tech/'} target="_blank" style={{ textDecoration: 'none'}}><span>@Makers Academy</span></a>
+            Software Engineering Course <a href={'https://makers.tech/'} target="_blank" style={{ textDecoration: 'none'}} rel="noreferrer"><span>@Makers Academy</span></a>
           </motion.h3>
           <div style={{ margin: "1rem 0" }}></div>
           <motion.p 
@@ -284,7 +284,7 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 2.9 }}
           >
-            Bachelor Of Science in Physics <a href={'https://www.ucl.ac.uk/physics-astronomy/physics-and-astronomy-0'} target="_blank" style={{ textDecoration: 'none'}}><span>@UCL</span></a>
+            Bachelor Of Science in Physics <a href={'https://www.ucl.ac.uk/physics-astronomy/physics-and-astronomy-0'} target="_blank" style={{ textDecoration: 'none'}} rel="noreferrer"><span>@UCL</span></a>
           </motion.h3>
           <div style={{ margin: "1rem 0" }}></div>
           <motion.p 
@@ -318,7 +318,7 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 3.5 }}
           >
-            Higher Education <a href={'https://www.alice-smith.edu.my/'} target="_blank" style={{ textDecoration: 'none'}}><span>@Alice Smith International School</span></a>
+            Higher Education <a href={'https://www.alice-smith.edu.my/'} target="_blank" style={{ textDecoration: 'none'}} rel="noreferrer"><span>@Alice Smith International School</span></a>
           </motion.h3>
           <div style={{ margin: "1rem 0" }}></div>
           <motion.p 
@@ -345,4 +345,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;
