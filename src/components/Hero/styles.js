@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import CvIcon from "./CvIcon";
 
 export const Container = styled.div`
   position: relative;
@@ -241,8 +240,4 @@ export const HeroFooter = styled.div`
     align-items: center;
     gap: 10px;
   }
-`;
-
-export const CvIconLight = styled(CvIcon)`
-  filter: invert(100%);
 `;

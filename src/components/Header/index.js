@@ -21,7 +21,7 @@ import nookies from "nookies";
 import ThemeSwitcher from "../ThemeSwitcher";
 import { Sling as Hamburger } from "hamburger-react";
 import { Fade, Zoom } from "react-awesome-reveal";
-import {NightLogo, logoKeyframes} from "./Logo";
+import {NightLogo, logoKeyframes} from "../Logo/Logo";
 import { motion } from "framer-motion";
 
 function Header(props) {

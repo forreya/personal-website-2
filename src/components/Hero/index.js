@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import background from "/public/static/assets/background.gif";
 import {
   Container,
@@ -12,17 +12,17 @@ import {
   ContactButton,
   HeroFooter,
   Main,
-  CvIconLight,
 } from "./styles";
 import { Bounce, Fade } from "react-awesome-reveal";
 import { BsEye } from "../../styles/Icons";
 import { useRouter } from "next/router";
-import CvIcon from "./CvIcon";
 import nookies from "nookies";
+import { BsJournalText } from "react-icons/bs";
 
 function Hero() {
   const router = useRouter();
   const {theme} = nookies.get('theme')
+  console.log(theme)
 
   return (
     <Container>
@@ -51,7 +51,7 @@ function Hero() {
           </Fade>
           <Bounce top delay={600}>
             <About>
-              Software <span>Developer</span>, Physics Graduate & Creative Enthusiast ✰
+              Software <span>Developer</span>, Physics Graduate & Creative Enthusiast ✮
             </About>
           </Bounce>
         </Main>
@@ -64,7 +64,7 @@ function Hero() {
           <Fade right delay={800}>
             <a href="/static/assets/Ryan_Lai_CV.pdf" download style={{ textDecoration: 'none' }}>
               <ContactButton>
-                {theme === 'dark' ? <CvIcon /> : <CvIconLight /> } Download CV
+                <BsJournalText /> Download CV
               </ContactButton>
             </a>
           </Fade>
