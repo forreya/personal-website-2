@@ -4,7 +4,6 @@ import PageTitle from "../../components/PageTitle";
 import SkillCard from "../../components/SkillCard";
 import { Container, AboutMe, Skills } from "../../styles/pages/About";
 import { motion } from "framer-motion";
-// import Experience from "../../components/Experience/Experience";
 
 function about() {
 
