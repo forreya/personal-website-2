@@ -12,8 +12,5 @@ export default {
     secundaryText: "#707C80",
     reverseColor: "#FFFFFF",
     codeBlock: "#282A36",
-
-    entraptaGlasses: "#B52ADF",
-    entraptaGlassesLight: "#9A63EE",
   },
 };
