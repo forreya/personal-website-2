@@ -250,7 +250,7 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 2.3 }}
           >
-            Bachelor Of Science in Physics <a href={'https://www.ucl.ac.uk/physics-astronomy/physics-and-astronomy-0'} target="_blank" style={{ textDecoration: 'none'}}><span>@UCL</span></a>
+            Software Engineering Course <a href={'https://makers.tech/'} target="_blank" style={{ textDecoration: 'none'}}><span>@Makers Academy</span></a>
           </motion.h3>
           <div style={{ margin: "1rem 0" }}></div>
           <motion.p 
@@ -259,7 +259,7 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 2.5 }}
           >
-            Sept 2019 - Sept 2022
+            Dec 2022 - Apr 2023
           </motion.p>
           <div style={{ margin: "1rem 0" }}></div>
           <motion.p 
@@ -268,12 +268,12 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 2.7 }}
           >
-            Graduated with <strong>Second Class Honours (2:1).</strong> 
+            Worked in collaborative team environments for the development of full-stack web applications (git-flow, agile workflow, pair programming), 
+            with a strong adherence to object-oriented programming and SOLID principles.
+            Wrote unit & integration tests, constructed schemas, and utilized mocking techniques. 
             <br/>
             <br/>
-            Undertook numerous coding projects (using Python) that 
-            involved tasks such as data analysis, computational treatment of experimental data, and creating 
-            3-dimensional models and animations of physical systems.
+            Some <strong>noteworthy projects</strong> include a property rental site, a Japanese Learning RPG, and a social media application. 
           </motion.p>
 
           <div style={{ margin: "2.7rem 0" }}></div>
@@ -284,7 +284,7 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 2.9 }}
           >
-            Software Engineering Course <a href={'https://makers.tech/'} target="_blank" style={{ textDecoration: 'none'}}><span>@Makers Academy</span></a>
+            Bachelor Of Science in Physics <a href={'https://www.ucl.ac.uk/physics-astronomy/physics-and-astronomy-0'} target="_blank" style={{ textDecoration: 'none'}}><span>@UCL</span></a>
           </motion.h3>
           <div style={{ margin: "1rem 0" }}></div>
           <motion.p 
@@ -293,7 +293,7 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 3.1 }}
           >
-            Dec 2022 - Apr 2023
+            Sept 2019 - Sept 2022
           </motion.p>
           <div style={{ margin: "1rem 0" }}></div>
           <motion.p 
@@ -302,12 +302,42 @@ function about() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 3.3 }}
           >
-            Worked in collaborative team environments for the development of full-stack web applications (git-flow, agile workflow, pair programming), 
-            with a strong adherence to object-oriented programming and SOLID principles.
-            Wrote unit & integration tests, constructed schemas, and utilized mocking techniques. 
+            Graduated with <strong>Second Class Honours (2:1).</strong> 
             <br/>
             <br/>
-            Some <strong>noteworthy projects</strong> include a property rental site, a Japanese Learning RPG, and a social media application. 
+            Undertook numerous coding projects <strong>(using Python)</strong> that 
+            involved tasks such as data analysis, computational treatment of experimental data, and creating 
+            3-dimensional models and animations of physical systems.
+          </motion.p>
+
+          <div style={{ margin: "2.7rem 0" }}></div>
+
+          <motion.h3 
+            style={{ textAlign: "left", letterSpacing: "0.04em" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 3.5 }}
+          >
+            Higher Education <a href={'https://www.alice-smith.edu.my/'} target="_blank" style={{ textDecoration: 'none'}}><span>@Alice Smith International School</span></a>
+          </motion.h3>
+          <div style={{ margin: "1rem 0" }}></div>
+          <motion.p 
+            style={{ textAlign: "left", fontStyle: "italic", letterSpacing: "0.04em" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 3.7 }}
+          >
+            Sept 2017 - Jul 2019
+          </motion.p>
+          <div style={{ margin: "1rem 0" }}></div>
+          <motion.p 
+            style={{ textAlign: "left", letterSpacing: "0.04em" }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 3.9 }}
+          >
+              For A Levels, I achieved <strong>2 A*s</strong> in Mathematics, Physics & <strong>2 As</strong> in Chemistry, Further Mathematics. 
+              For GCSEs I achieved 8 A*s and 3 As in a range of subjects including Computer Science.
           </motion.p>
         </div>
       </AboutMe>
