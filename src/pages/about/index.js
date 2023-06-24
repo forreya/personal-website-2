@@ -6,11 +6,10 @@ import { Container, AboutMe, Skills } from "../../styles/pages/About";
 import { motion } from "framer-motion";
 
 function about() {
-
-  const data = {
+  const skillsData = {
     cardOne: {
       title: "Libraries",
-
+  
       first: {
         alt: "ReactJS",
         icon: "reacticon.png",
@@ -30,7 +29,7 @@ function about() {
     },
     cardTwo: {
       title: "Languages",
-
+  
       first: {
         alt: "JavaScript",
         icon: "javascript.png",
@@ -50,7 +49,7 @@ function about() {
     },
     cardThree: {
       title: "Tools",
-
+  
       first: {
         alt: "NodeJS",
         icon: "node.png",
@@ -70,7 +69,7 @@ function about() {
     },
     cardFour: {
       title: "Databases",
-
+  
       first: {
         alt: "Linux",
         icon: "linux.png",
@@ -80,15 +79,14 @@ function about() {
         icon: "mongodb.svg",
       },
       third: {
-        alt: "-",
         icon: "dash.png",
       },
       fourth: {
-        alt: "-",
         icon: "dash.png",
       },
     },
   };
+
   return (
     
     <Container>
@@ -135,10 +133,10 @@ function about() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <SkillCard data={data.cardOne} />
-          <SkillCard data={data.cardTwo} />
-          <SkillCard data={data.cardThree} />
-          <SkillCard data={data.cardFour} />
+          <SkillCard data={skillsData.cardOne} />
+          <SkillCard data={skillsData.cardTwo} />
+          <SkillCard data={skillsData.cardThree} />
+          <SkillCard data={skillsData.cardFour} />
         </Skills>
         <div>
           <motion.p
