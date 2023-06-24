@@ -15,7 +15,7 @@ export default function Blog({ projects }) {
   return (
     <Container>
       <Head>
-        <title>Ryan Lai | Projects</title>
+        <title>Projects | Ryan Lai</title>
       </Head>
       <PageTitle title="projects" stretchedLetter="b" overlayTitle="development | testing | deployment" />
       <MainWrapper>

@@ -39,7 +39,7 @@ function Contact() {
     //       console.log(error.text);
     //     }
     //   );
-    window.alert('This email form is not fully functioning yet...')
+    window.alert('This email feature is currently not operational yet. Sorry about that :/')
     e.target.reset();
     e.preventDefault();
   };
@@ -47,7 +47,7 @@ function Contact() {
   return (
     <Container>
       <Head>
-        <title>Ryan Lai | Contact Me</title>
+        <title>Contact Me | Ryan Lai</title>
       </Head>
       <LeftContainer>
         <Main>
@@ -108,7 +108,7 @@ function Contact() {
               >
                 <TextArea
                   name="message"
-                  placeholder="This email functionality is still under development..."
+                  placeholder="This email feature is currently not operational yet..."
                   required
                 ></TextArea>
                 <div className="underline"></div>

@@ -93,7 +93,7 @@ function about() {
     
     <Container>
       <Head>
-        <title>Ryan Lai - About Me</title>
+        <title>About Me | Ryan Lai</title>
       </Head>
       <PageTitle
         title="about"
