@@ -15,12 +15,12 @@ function about() {
         icon: "reacticon.png",
       },
       second: {
-        alt: "NextJS",
-        icon: "nextjs.png",
+        alt: "NodeJS",
+        icon: "node.png",
       },
       third: {
-        alt: "ExpressJS",
-        icon: "express-js.png",
+        alt: "SciPy",
+        icon: "scipy.png",
       },
       fourth: {
         alt: "TailwindCSS",
@@ -51,38 +51,40 @@ function about() {
       title: "Tools",
   
       first: {
-        alt: "NodeJS",
-        icon: "node.png",
+        alt: "MongoDB",
+        icon: "mongodb.svg",
       },
       second: {
-        alt: "Jest",
-        icon: "jest.png",
+        alt: "PostgreSQL",
+        icon: "postgresql.png",
       },
       third: {
-        alt: "JSON Web Tokens",
+        alt: "JWT",
         icon: "jwt.png",
       },
       fourth: {
-        alt: "Web Sockets",
+        alt: "WebSockets",
         icon: "websockets.png",
       },
     },
     cardFour: {
-      title: "Databases",
+      title: "Frameworks",
   
       first: {
-        alt: "Linux",
-        icon: "linux.png",
+        alt: "NextJS",
+        icon: "nextjs.png",
       },
       second: {
-        alt: "MongoDB",
-        icon: "mongodb.svg",
+        alt: "ExpressJS",
+        icon: "express-js.png",
       },
       third: {
-        icon: "dash.png",
+        alt: "Jest",
+        icon: "jest.png",
       },
       fourth: {
-        icon: "dash.png",
+        alt: "RSpec",
+        icon: "rspec.png",
       },
     },
   };

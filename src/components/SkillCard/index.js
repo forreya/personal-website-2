@@ -66,7 +66,11 @@ function SkillCard(props) {
       gyroscope={true}
     >
       <Container>
-        <p>{props.data.title}</p>
+        {hoveredIndex === null && <p>{props.data.title}</p>}
+        {hoveredIndex === 0 && props.data.first.alt && <p>{props.data.first.alt}</p>}
+        {hoveredIndex === 1 && props.data.second.alt && <p>{props.data.second.alt}</p>}
+        {hoveredIndex === 2 && props.data.third.alt && <p>{props.data.third.alt}</p>}
+        {hoveredIndex === 3 && props.data.fourth.alt && <p>{props.data.fourth.alt}</p>}
         <div>
           <div
             onMouseEnter={() => handleImageHover(0)}
@@ -78,7 +82,6 @@ function SkillCard(props) {
               width={32}
               height={32}
             />
-            {hoveredIndex === 0 && props.data.first.alt && <p>{props.data.first.alt}</p>}
           </div>
           <div
             onMouseEnter={() => handleImageHover(1)}
@@ -90,7 +93,6 @@ function SkillCard(props) {
               width={32}
               height={32}
             />
-            {hoveredIndex === 1 && props.data.second.alt && <p>{props.data.second.alt}</p>}
           </div>
           <div
             onMouseEnter={() => handleImageHover(2)}
@@ -102,7 +104,6 @@ function SkillCard(props) {
               width={32}
               height={32}
             />
-            {hoveredIndex === 2 && props.data.third.alt && <p>{props.data.third.alt}</p>}
           </div>
           <div
             onMouseEnter={() => handleImageHover(3)}
@@ -114,7 +115,6 @@ function SkillCard(props) {
               width={32}
               height={32}
             />
-            {hoveredIndex === 3 && props.data.fourth.alt && <p>{props.data.fourth.alt}</p>}
           </div>
         </div>
       </Container>
