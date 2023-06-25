@@ -67,7 +67,7 @@ function Contact() {
                 <Input
                   type="text"
                   name="username"
-                  placeholder="Your name"
+                  placeholder="Your Name"
                   required
                 ></Input>
                 <div className="underline"></div>
