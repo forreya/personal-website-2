@@ -67,10 +67,10 @@ function SkillCard(props) {
     >
       <Container>
         {hoveredIndex === null && <p>{props.data.title}</p>}
-        {hoveredIndex === 0 && props.data.first.alt && <p>{props.data.first.alt}</p>}
-        {hoveredIndex === 1 && props.data.second.alt && <p>{props.data.second.alt}</p>}
-        {hoveredIndex === 2 && props.data.third.alt && <p>{props.data.third.alt}</p>}
-        {hoveredIndex === 3 && props.data.fourth.alt && <p>{props.data.fourth.alt}</p>}
+        {hoveredIndex === 0 && props.data.first.alt && <span>{props.data.first.alt}</span>}
+        {hoveredIndex === 1 && props.data.second.alt && <span>{props.data.second.alt}</span>}
+        {hoveredIndex === 2 && props.data.third.alt && <span>{props.data.third.alt}</span>}
+        {hoveredIndex === 3 && props.data.fourth.alt && <span>{props.data.fourth.alt}</span>}
         <div>
           <div
             onMouseEnter={() => handleImageHover(0)}
