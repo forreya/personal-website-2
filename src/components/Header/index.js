@@ -23,6 +23,7 @@ import { Sling as Hamburger } from "hamburger-react";
 import { Fade, Zoom } from "react-awesome-reveal";
 import {NightLogo, logoKeyframes} from "../Logo/Logo";
 import { motion } from "framer-motion";
+import { BsMedium } from "react-icons/bs";
 
 function Header(props) {
   const router = useRouter();
@@ -86,6 +87,14 @@ function Header(props) {
                 }
                 size={17}
               />
+              <BsMedium
+                onClick={() =>
+                  window
+                    .open("https://medium.com/@forreya", "_blank")
+                    .focus()
+                }
+                size={22}
+              />
               <BsLinkedin
                 onClick={() =>
                   window
@@ -129,6 +138,14 @@ function Header(props) {
                         .focus()
                     }
                     size={17}
+                  />
+                  <BsMedium
+                    onClick={() =>
+                      window
+                        .open("https://medium.com/@forreya", "_blank")
+                        .focus()
+                    }
+                    size={22}
                   />
                   <BsLinkedin
                     onClick={() =>
