@@ -26,6 +26,9 @@
 - Responsive map which displays my rough location (London)
 - Integrated emailing feature (not working as of now)
 
+To check out the website for yourself, click [here](https://forreya.vercel.app/).
+
+
 ## 💾 Installation
 
 To run this app, you will need to have **Node.js** and **npm** installed on your machine.
