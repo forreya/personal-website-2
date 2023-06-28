@@ -12,27 +12,27 @@
 
 ---
 
-<p align="center">My personal website that is used to showcase my experience, skills, and side-projects. There are also links to allows people to easily find my socials and get into contact with me.</p>
+<p align="center">Used to showcase my experience, skills, and side-projects. Links also provided to allow anyone to easily find my socials and get into contact with me.</p>
 
 ![DemoGif]()
 
 ---
 
-## 💾 Installing 
+## Installing 💾
 
-#1 Clone The Repository
+#1 Clone Repository
 
 ```
 git clone https://github.com/forreya/personal-website-2
 ```
 
-#2 Install The Dependencies
+#2 Install Dependencies
 
 ```
 npm install 
 ```
     
-#3 Run The Application
+#3 Run Application
 
 ```
 npm run dev
@@ -40,7 +40,7 @@ npm run dev
     
 ---
 
-## 💻 Technologies Used
+## Technologies Used 💻
 
 - [React Js](https://reactjs.org/)
 - [Next Js](https://nextjs.org/)
@@ -51,7 +51,7 @@ npm run dev
 
 ---
 
-## To-Do List
+## To-Do List 📝
 
 - [ ] Add a website demo gif
 - [ ] Fix emailing feature on contacts page
