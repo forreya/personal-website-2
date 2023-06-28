@@ -1,18 +1,18 @@
-<p align="center"><img alt="logo" src="https://github.com/forreya/personal-website-2/blob/main/logo.png" width="100px" /></p>
-<h1 align="center">PERSONAL WEBSITE</h1>
+<p align="center"><img alt="logo" src="https://github.com/forreya/personal-website-2/blob/main/logo.png" width="80px" /></p>
+<h1 align="center">Personal Website</h1>
 
 <p align="center">
-  <a href="#"><img alt="NextJS" src="https://img.shields.io/badge/Next.js-222222?logo=nextdotjs&logoColor=white"></a>
-  <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
-  <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
-  <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black"></a>
+  <a href="#"><img alt="NextJS" src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"></a>
+  <a href="#"><img alt="CSS" src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"></a>
+  <a href="#"><img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a>
+  <a href="#"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></a>
   <a href="#"><img alt="Framer Motion" src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue"></a>
-  <a href="#"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?logo=markdown&logoColor=white"></a>
+  <a href="#"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"></a>
 </p>
 
 ---
 
-<p align="center">This is my personal website.</p>
+<p align="center">My personal website that is used to showcase my experience, skills, and side-projects. There are also links to allows people to easily find my socials and get into contact with me.</p>
 
 ![DemoGif]()
 
@@ -20,19 +20,19 @@
 
 ## 💾 Installing 
 
-Git clone the repository
+#1 Clone The Repository
 
 ```
 git clone https://github.com/forreya/personal-website-2
 ```
 
-Install the dependencies
+#2 Install The Dependencies
 
 ```
 npm install 
 ```
     
-Run the application
+#3 Run The Application
 
 ```
 npm run dev
@@ -53,7 +53,7 @@ npm run dev
 
 ## To-Do List
 
-- [ ] Add website demo gif
+- [ ] Add a website demo gif
 - [ ] Fix emailing feature on contacts page
 - [ ] Add route transition animations
 - [ ] Add a language switch (English & Mandarin)
