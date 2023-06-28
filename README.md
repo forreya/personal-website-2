@@ -10,7 +10,7 @@
   <a href="#"><img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"></a>
 </p>
 
-<h4 align="center">This website is used to showcase my experience, skills, and side-projects. There are also links to my socials to allow anyone to easily find my get into contact with me.</h4>
+<h4 align="center">This website is used to showcase my experience, skills, and side-projects. There are also links to my socials to allow anyone to easily view my profiles and get into contact with me.</h4>
 
 ---
 
@@ -52,7 +52,7 @@ This will install the necessary packages listed in the package.json file.
 
 ## 📝 To-Do List
 
-- [ ] Add a website demo gif
+- [✓] Add a website demo gif
 - [ ] Fix emailing feature on contacts page
 - [ ] Add route transition animations
 - [ ] Add a language switch (English & Mandarin)
