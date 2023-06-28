@@ -28,6 +28,7 @@
 
 To check out the website for yourself, click [here](https://forreya.vercel.app/).
 
+<br/>
 
 ## 💾 Installation
 
@@ -53,6 +54,8 @@ npm run dev
 
 This will install the necessary packages listed in the package.json file.
 
+<br/>
+
 ## 💻 Technologies
 
 - [ReactJS](https://reactjs.org/)
@@ -61,6 +64,8 @@ This will install the necessary packages listed in the package.json file.
 - [HTML](https://html.spec.whatwg.org/multipage/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [CSS](https://devdocs.io/css/)
+
+<br/>
 
 ## 📝 To-Do List
 
