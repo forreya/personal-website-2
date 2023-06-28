@@ -14,21 +14,15 @@
 
 ---
 
-
 ![DemoGif](https://github.com/forreya/personal-website-2/blob/main/demo.gif)
+
+---
 
 ## 🕹️ Features
 
-### Home Page
 - CV Download
-
-### About Me Page
 - Information about previous experience, education and programming languages
-
-### Projects Page
 - Links and information about past side-projects
-
-### Contact Me Page
 - Responsive map which displays my rough location (London)
 - Integrated emailing feature (not working as of now)
 
