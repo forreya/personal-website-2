@@ -52,7 +52,7 @@ This will install the necessary packages listed in the package.json file.
 
 ## 📝 To-Do List
 
-- [✓] Add a website demo gif
+- [x] Add a website demo gif
 - [ ] Fix emailing feature on contacts page
 - [ ] Add route transition animations
 - [ ] Add a language switch (English & Mandarin)
