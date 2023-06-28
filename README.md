@@ -20,13 +20,17 @@
 
 ## 🕹️ Features
 
-- CV Download
-- Information about previous experience, education and programming languages
-- Links and information about past side-projects
-- Responsive map which displays my rough location (London)
-- Integrated emailing feature (not working as of now)
+Here's an overview of the key functionalities of the website:
 
-To check out the website for yourself, click [here](https://forreya.vercel.app/).
+- **Get to know me**: Explore my background, hobbies, and discover the story behind my journey into programming and why I love it.
+- **Comprehensive information**: Find detailed information about my previous experience, education, and proficiency in various programming languages.
+- **Insight into side-projects**: Explore a summary of my past side-projects, along with their respective GitHub links, providing a glimpse into my diverse portfolio.
+- **CV Download**: Easily download my CV by clicking on the provided link.
+- **Immersive UI with Framer Motion**: Enjoy a visually captivating user interface with dynamic displays created using Framer Motion, ensuring an exceptional user experience.
+- **Intuitive website navigation**: Experience a seamless and user-friendly flow while navigating through the website.
+- **Location display on a responsive map**: View my approximate location based in London through an interactive and responsive map.
+- **Connect through social media**: Explore my profiles on GitHub, Medium, and LinkedIn by accessing the provided social media links.
+- **Integrated email functionality (currently unavailable)**: Utilize the integrated emailing feature to conveniently get in touch with me (currently undergoing maintenance)
 
 ---
 
