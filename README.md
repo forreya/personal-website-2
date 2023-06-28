@@ -28,7 +28,7 @@
 
 To check out the website for yourself, click [here](https://forreya.vercel.app/).
 
-<br/>
+---
 
 ## 💾 Installation
 
@@ -54,7 +54,7 @@ npm run dev
 
 This will install the necessary packages listed in the package.json file.
 
-<br/>
+---
 
 ## 💻 Technologies
 
@@ -65,7 +65,7 @@ This will install the necessary packages listed in the package.json file.
 - [Framer Motion](https://www.framer.com/motion/)
 - [CSS](https://devdocs.io/css/)
 
-<br/>
+---
 
 ## 📝 To-Do List
 
