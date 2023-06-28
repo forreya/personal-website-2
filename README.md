@@ -18,7 +18,7 @@
 
 ---
 
-## Installing 💾
+## 💾 How To Install
 
 #1 Clone Repository
 
@@ -40,10 +40,10 @@ npm run dev
     
 ---
 
-## Technologies Used 💻
+## 💻 Technologies Used
 
-- [React Js](https://reactjs.org/)
-- [Next Js](https://nextjs.org/)
+- [ReactJS](https://reactjs.org/)
+- [NextJS](https://nextjs.org/)
 - [JavaScript](https://www.javascript.com/)
 - [HTML](https://html.spec.whatwg.org/multipage/)
 - [Framer Motion](https://www.framer.com/motion/)
@@ -51,7 +51,7 @@ npm run dev
 
 ---
 
-## To-Do List 📝
+## 📝 To-Do List
 
 - [ ] Add a website demo gif
 - [ ] Fix emailing feature on contacts page
