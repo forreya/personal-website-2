@@ -14,11 +14,11 @@
 
 <p align="center">Used to showcase my experience, skills, and side-projects. Links also provided to allow anyone to easily find my socials and get into contact with me.</p>
 
-![DemoGif]()
+![DemoGif](https://github.com/forreya/personal-website-2/blob/main/demo.gif)
 
 ---
 
-## 💾 How To Install
+### 💾 How To Install
 
 #1 Clone Repository
 
@@ -40,7 +40,7 @@ npm run dev
     
 ---
 
-## 💻 Technologies Used
+### 💻 Technologies Used
 
 - [ReactJS](https://reactjs.org/)
 - [NextJS](https://nextjs.org/)
@@ -51,7 +51,7 @@ npm run dev
 
 ---
 
-## 📝 To-Do List
+### 📝 To-Do List
 
 - [ ] Add a website demo gif
 - [ ] Fix emailing feature on contacts page
