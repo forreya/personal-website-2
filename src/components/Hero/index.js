@@ -50,7 +50,7 @@ function Hero() {
           </Fade>
           <Bounce top delay={600}>
             <About>
-              Software <span>Developer</span>, Physics Graduate & Creative Enthusiast ✮
+              Software <span>Engineer</span>, Physics Graduate & Creative Enthusiast ✮
             </About>
           </Bounce>
         </Main>
