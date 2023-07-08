@@ -4,6 +4,7 @@ import PageTitle from "../../components/PageTitle";
 import SkillCard from "../../components/SkillCard";
 import { Container, AboutMe, Skills } from "../../styles/pages/About";
 import { motion } from "framer-motion";
+import { color } from "canvas-sketch-util";
 
 function About() {
   const skillsData = {
@@ -147,7 +148,7 @@ function About() {
             transition={{ duration: 0.8, delay: 0.4 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            <strong>When I&apos;m not working on a new project,</strong> I&apos;m probably scoring some serious buckets in a basketball pickup game, adventuring around a new part of town, or in my room blasting 5am in Toronto for the 28th time in a row.
+            <strong>When I&apos;m not working on a new project,</strong> I&apos;m probably scoring some serious buckets in a basketball pickup game, adventuring around a new part of town, or in my room blasting <a href={'https://youtu.be/3t195yz9xCc'} style={{ textDecoration: 'none'}} target="_blank" rel="noreferrer"><strong><span>5am in Toronto</span></strong></a> for the 28th time in a row.
           </motion.p>
         </div>
 
