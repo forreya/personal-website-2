@@ -147,7 +147,7 @@ function About() {
             transition={{ duration: 0.8, delay: 0.4 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            <strong>When I&apos;m not working on a new project,</strong> I&apos;m probably scoring some serious buckets in a basketball pickup game, adventuring around a new part of town, or in the corner of my room questioning the meaning of human existence.
+            <strong>When I&apos;m not working on a new project,</strong> I&apos;m probably scoring some serious buckets in a basketball pickup game, adventuring around a new part of town, or in my room blasting 5am in Toronto for the 28th time in a row.
           </motion.p>
         </div>
 
