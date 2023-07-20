@@ -24,22 +24,21 @@ function Contact() {
   );
 
   const sendEmail = (e) => {
-    // emailjs
-    //   .sendForm(
-    //     "service_sd8uatp",
-    //     "template_9bkroze",
-    //     e.target,
-    //     "M-ZEoRP3zha0buhUy"
-    //   )
-    //   .then(
-    //     (result) => {
-    //       console.log(result.text);
-    //     },
-    //     (error) => {
-    //       console.log(error.text);
-    //     }
-    //   );
-    window.alert('This email feature is currently not operational yet. Sorry about that :/')
+    emailjs
+      .sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        e.target,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+      )
+      .then(
+        (result) => {
+          console.log("Email sent successfully.");
+        },
+        (error) => {
+          console.log("Failed to send email: ", error.text);
+        }
+      );
     e.target.reset();
     e.preventDefault();
   };
@@ -66,7 +65,7 @@ function Contact() {
               >
                 <Input
                   type="text"
-                  name="username"
+                  name="from_name"
                   placeholder="Your Name"
                   required
                 ></Input>
@@ -80,8 +79,8 @@ function Contact() {
               >
                 <Input
                   type="email"
-                  name="email"
-                  placeholder="Email"
+                  name="from_email"
+                  placeholder="Your Email Address"
                   required
                 ></Input>
                 <div className="underline"></div>
@@ -96,7 +95,7 @@ function Contact() {
                 name="subject"
                 className="full-fill"
               >
-                <Input type="text" placeholder="Subject" required></Input>
+                <Input type="text" name="subject" placeholder="Email Subject" required></Input>
                 <div className="underline"></div>
               </InputData>
               <InputData
@@ -108,7 +107,7 @@ function Contact() {
               >
                 <TextArea
                   name="message"
-                  placeholder="This email feature is currently not operational yet..."
+                  placeholder="Your Message"
                   required
                 ></TextArea>
                 <div className="underline"></div>
