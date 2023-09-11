@@ -118,7 +118,7 @@ function About() {
             transition={{ duration: 0.8 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            As a recent <strong>University College London graduate</strong> with a strong passion for developing innovative software solutions with a high social impact, I am a believer in technological advancement for the betterment of society. Therefore, I am resultantly interested in many avenues of the tech industry including but not limited to- web development, machine learning, and software integration. 
+            As a <strong>Junior Software Developer</strong> & <strong>UCL Physics Graduate</strong>, I love creating digital experiences that pushes the envelope of innovation- infusing logic, creativity, and collaboration to produce socially impactful solutions.
           </motion.p>
           <div style={{ margin: "1rem 0" }}></div>
           <motion.p
@@ -127,7 +127,7 @@ function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            Being a <strong>junior software engineer,</strong> I love merging innovative concepts, engineering, and design together — combining my technical knowledge with my keen eye for aesthetics to create a beautiful product. My goal is to always craft applications that are not only scalable and efficient under the hood, but also leave users in awe with engaging, pixel-perfect experiences.
+            By constantly merging new ideas, established programming principles, and unique designs together — I combine my technical knowledge with my keen eye for aesthetics to create beautiful products. My goal is to always craft applications that are not only scalable and efficient under the hood, but also captivate users with engaging, "pixel-perfect" experiences.
           </motion.p>
         </div>
         <Skills
@@ -148,7 +148,7 @@ function About() {
             transition={{ duration: 0.8, delay: 0.4 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            <strong>When I&apos;m not working on a new project,</strong> I&apos;m probably scoring some serious buckets in a basketball pickup game, adventuring around a new part of town, or in my room blasting <a href={'https://youtu.be/3t195yz9xCc'} style={{ textDecoration: 'none'}} target="_blank" rel="noreferrer"><strong><span>5am in Toronto</span></strong></a> for the 28th time in a row.
+            <strong>When I&apos;m not working on a new project,</strong> I&apos;m probably sinking buckets in a basketball pickup game, constructing a ten-story condo in Minecraft, skateboarding under my neighborhood bridge, or moonlighting for the CIA on a top secre-<strong>*redacted*</strong>
           </motion.p>
         </div>
 
