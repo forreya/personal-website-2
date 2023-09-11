@@ -127,7 +127,7 @@ function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            By constantly merging new ideas, established programming principles, and unique designs together — I combine my technical knowledge with my keen eye for aesthetics to create beautiful products. My goal is to always craft applications that are not only scalable and efficient under the hood, but also captivate users with engaging, "pixel-perfect" experiences.
+            By constantly merging new ideas, established programming principles, and unique designs together — I combine my technical knowledge with my keen eye for aesthetics to create beautiful products. My goal is to always craft applications that are not only scalable and efficient under the hood, but also captivate users with engaging, &quot;pixel-perfect&quot; experiences.
           </motion.p>
         </div>
         <Skills
