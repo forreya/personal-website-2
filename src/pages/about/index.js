@@ -118,7 +118,7 @@ function About() {
             transition={{ duration: 0.8 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            As a <strong>Junior Software Developer</strong> & <strong>UCL Physics Graduate</strong>, I love creating digital experiences that pushes the envelope of innovation- infusing logic, creativity, and collaboration to produce socially impactful solutions.
+            As a <strong>Junior Software Developer</strong> & <strong>UCL Physics Graduate</strong>, I create digital experiences that push the envelope of innovation- infusing logic, creativity, and collaboration to produce socially impactful solutions.
           </motion.p>
           <div style={{ margin: "1rem 0" }}></div>
           <motion.p
@@ -127,7 +127,7 @@ function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            By constantly merging new ideas, established programming principles, and unique designs together — I combine my technical knowledge with my keen eye for aesthetics to create beautiful products. My goal is to always craft applications that are not only scalable and efficient under the hood, but also captivate users with engaging, &quot;pixel-perfect&quot; experiences.
+            By merging new ideas, established principles, and unique designs together — I combine my technical knowledge with my keen eye for aesthetics to create beautiful yet functional products. My goal is to always craft applications that are not only scalable and efficient under the hood, but also captivate users with engaging experiences.
           </motion.p>
         </div>
         <Skills
@@ -148,7 +148,7 @@ function About() {
             transition={{ duration: 0.8, delay: 0.4 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            <strong>When I&apos;m not working on a new project,</strong> I&apos;m probably sinking buckets in a basketball pickup game, constructing a ten-story condo in Minecraft, skateboarding under my neighborhood bridge, or moonlighting for the CIA on a top secre-<strong>*redacted*</strong>
+            <strong>When I&apos;m not working on a new project,</strong> I&apos;m probably sinking buckets in a basketball pickup game, constructing a ten-story condo in Minecraft, or skating under my neighborhood bridge.
           </motion.p>
         </div>
 
@@ -195,8 +195,7 @@ function About() {
             transition={{ duration: 0.8, delay: 1.4 }}
           >
             Wahine Capital provides a <strong>digital vault and personal life manager</strong> which grants immediate access to assets 
-            and liabilities for significant life events like divorce, death, or tax audits. The company&apos;s goal is to 
-            give users a clear understanding of their financial standing by providing a snapshot of their financial lives.
+            and liabilities for significant life events like divorce, death, or tax audits.
           </motion.p>
           <div style={{ margin: "1.5rem 0" }}></div>
           <motion.p 
@@ -214,7 +213,7 @@ function About() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1.6 }}
           >
-            &bull; Created preliminary layouts for the design and branding of the company using Canva & Procreate<br />
+            &bull; Created preliminary layouts for the design and branding of the company using Procreate<br />
           </motion.p>
           <div style={{ margin: "0.2rem 0" }}></div>
           <motion.p 
@@ -269,8 +268,8 @@ function About() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 2.7 }}
           >
-            Worked in collaborative team environments for the development of full-stack web applications (git-flow, agile workflow, pair programming), 
-            with a strong adherence to object-oriented programming and SOLID principles.
+            Worked in collaborative development teams (git-flow, agile workflow, pair programming), 
+            with a strong adherence to OOP and SOLID principles.
             Wrote unit & integration tests, constructed schemas, and utilized mocking techniques. 
             <br/>
             <br/>
