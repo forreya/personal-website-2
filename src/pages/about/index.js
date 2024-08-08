@@ -99,7 +99,7 @@ function About() {
       <PageTitle
         title="about"
         stretchedLetter="b"
-        overlayTitle="techs | experience | skills"
+        overlayTitle="tech | experience | skills"
       />
 
       <AboutMe>
@@ -127,7 +127,7 @@ function About() {
             transition={{ duration: 0.8, delay: 0.2 }}
             style={{ letterSpacing: "0.04em", fontSize: 17 }}
           >
-            By merging new ideas, established principles, and unique designs together — I combine my technical knowledge with my keen eye for aesthetics to create beautiful yet functional products. My goal is to always craft applications that are not only scalable and efficient under the hood, but also captivate users with engaging experiences.
+            My goal is to always develop applications that are not only scalable and efficient under the hood, but also captivate users with engaging experiences.
           </motion.p>
         </div>
         <Skills
@@ -141,16 +141,6 @@ function About() {
           <SkillCard data={skillsData.cardThree} />
           <SkillCard data={skillsData.cardFour} />
         </Skills>
-        <div>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            style={{ letterSpacing: "0.04em", fontSize: 17 }}
-          >
-            <strong>When I&apos;m not working on a new project,</strong> I&apos;m probably sinking buckets in a basketball pickup game, constructing a ten-story condo in Minecraft, or skating under my neighborhood bridge.
-          </motion.p>
-        </div>
 
         <div style={{ margin: "0.1rem 0" }}></div>
 
@@ -306,7 +296,7 @@ function About() {
             <br/>
             <br/>
             Undertook numerous coding projects <strong>(using Python)</strong> that 
-            involved tasks such as data analysis, computational treatment of experimental data, and creating 
+            involved tasks such as statistical data analysis, computational treatment of large experimental datasets, and creating 
             3-dimensional models and animations of physical systems.
           </motion.p>
 
@@ -336,8 +326,8 @@ function About() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 3.9 }}
           >
-              For A Levels, I achieved <strong>2 A*s</strong> in Mathematics, Physics & <strong>2 As</strong> in Chemistry, Further Mathematics. 
-              For GCSEs I achieved 8 A*s and 3 As in a range of subjects including Computer Science.
+              For A Levels, I achieved <strong>3 A*s</strong> in Mathematics, Further Mathematics, Physics & <strong>1 A</strong> in Chemistry. 
+              For GCSEs I achieved 9 A*s and 2 As in a range of subjects including Computer Science.
           </motion.p>
         </div>
       </AboutMe>
